@@ -13,4 +13,4 @@ for step in steps:
     if next_row >= 1 and next_row <= 8 and next_colum >= 1 and next_colum <= 8:
         count += 1
 
-print(count)
+print(count)  
