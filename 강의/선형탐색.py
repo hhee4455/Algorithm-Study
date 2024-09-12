@@ -5,7 +5,6 @@ max = num[-1]
 
 print(max)
 
-
 max_2 = 0
 
 for i in range(1, len(num)):
