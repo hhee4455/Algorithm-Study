@@ -5,7 +5,8 @@ def bfs(graph,start,visited):
     visited[start] = True
     while queue:
         v = queue.popleft()
-        print(v,end='')
+        print(v, end=' ')
+
         for i in graph[v]:
             if not visited[i]:
                 queue.append(i)
